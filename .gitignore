@@ -1,0 +1,24 @@
+# Build output
+GFS/bin/
+*.exe
+*.test
+*.out
+
+# Generated protobuf stubs (run `make proto`)
+*.pb.go
+
+# Runtime data
+GFS/storage/
+
+# Local environment
+.env
+.env.backup
+
+# Editor / OS
+*.bak
+*.swp
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+.pytest_cache/
